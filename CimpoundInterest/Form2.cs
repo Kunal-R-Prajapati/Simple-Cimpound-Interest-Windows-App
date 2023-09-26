@@ -46,12 +46,13 @@ namespace CimpoundInterest
                 double rate = (double) ratebox1.Value / 100;
                 double time = Convert.ToDouble(timeBox1.Text);
                 double interest = (double)(principle * rate * time);
-                Answer1.Text = "Total Interest is:\n" + interest.ToString();
+                Answer1.Text = "Total Interest is:\n" + Math.Round( interest,2).ToString();
 
             } 
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message); 
+                Reset();
             }   
         }
         private void Reset()
@@ -60,6 +61,11 @@ namespace CimpoundInterest
             ratebox1.Value = 0;
             timeBox1.Text = "";
             Answer1.Text = "";
+        }
+
+        private void resetBtn_Click(object sender, EventArgs e)
+        {
+            Reset();
         }
     }
 }

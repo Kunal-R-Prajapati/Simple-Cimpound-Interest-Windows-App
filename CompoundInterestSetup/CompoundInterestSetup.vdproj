@@ -15,37 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_28CD94E3FF234872AC67358473B24CCB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_34E2AAB30760ABAF9F4AFF5B191531E0"
-        "OwnerKey" = "8:_67019B7F2C604312A8CB4465FAB2C5C6"
+        "OwnerKey" = "8:_5B2FE9C50B894456866810C697AAFEB4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_67019B7F2C604312A8CB4465FAB2C5C6"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9A330FC0C6704B1A9737915215838018"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9C0A13CF91B543589AAC19571D7D2FFD"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F2EC1566076B45409C3065F0188ABC13"
+        "MsmKey" = "8:_5B2FE9C50B894456866810C697AAFEB4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -58,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_67019B7F2C604312A8CB4465FAB2C5C6"
+        "OwnerKey" = "8:_5B2FE9C50B894456866810C697AAFEB4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -79,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -87,7 +71,7 @@
         "IsReleaseOnly" = "11:TRUE"
         "OutputFilename" = "8:Release\\CompoundInterestSetup.msi"
         "PackageFilesAs" = "3:2"
-        "PackageFileSize" = "3:-2147483648"
+        "PackageFileSize" = "3:0"
         "CabType" = "3:1"
         "Compression" = "3:2"
         "SignOutput" = "11:FALSE"
@@ -95,6 +79,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -124,26 +124,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_28CD94E3FF234872AC67358473B24CCB"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\icon.svg"
-            "TargetName" = "8:icon.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_14E2D0DBD7AF4EFE9B60707E8A20EFB4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_34E2AAB30760ABAF9F4AFF5B191531E0"
             {
             "AssemblyRegister" = "3:1"
@@ -175,66 +155,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9A330FC0C6704B1A9737915215838018"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\Icon.ico"
-            "TargetName" = "8:Icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_14E2D0DBD7AF4EFE9B60707E8A20EFB4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9C0A13CF91B543589AAC19571D7D2FFD"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\unnamed.png"
-            "TargetName" = "8:unnamed.png"
-            "Tag" = "8:"
-            "Folder" = "8:_14E2D0DBD7AF4EFE9B60707E8A20EFB4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F2EC1566076B45409C3065F0188ABC13"
-            {
-            "SourcePath" = "8:C:\\Windows\\System32\\shell32.dll"
-            "TargetName" = "8:shell32.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_14E2D0DBD7AF4EFE9B60707E8A20EFB4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -251,17 +171,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_899EB4039BC540B691847EF314A4EB64"
-                    {
-                    "Name" = "8:New Folder #1"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_B4214C5402D44BF0B27F0B76FBAB8F1A"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_8EBEA0358E074B7199F871EFCC2FFAF9"
@@ -303,7 +212,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:CompoundInterestSetup"
         "ProductCode" = "8:{15429F1C-43F8-429C-AB42-4E7E1000DC51}"
-        "PackageCode" = "8:{E5BAF8BF-C247-4D49-8C44-4AE95EFE98B3}"
+        "PackageCode" = "8:{55698E44-732C-4554-81EE-9B3498F41DB8}"
         "UpgradeCode" = "8:{089FCF09-25DE-4652-88CE-1ED7752833A1}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -423,32 +332,32 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_62C3D34FB65F408E91BCBC0F3F0E9837"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_071A8F967F754CDA9AEABE3B61F008D3"
             {
-            "Name" = "8:CimpoundInterest"
+            "Name" = "8:Interest Calc"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:16782"
+            "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_67019B7F2C604312A8CB4465FAB2C5C6"
+            "Target" = "8:_5B2FE9C50B894456866810C697AAFEB4"
             "Folder" = "8:_8EBEA0358E074B7199F871EFCC2FFAF9"
             "WorkingFolder" = "8:_14E2D0DBD7AF4EFE9B60707E8A20EFB4"
-            "Icon" = "8:_F2EC1566076B45409C3065F0188ABC13"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DB4BE499A3AC4415845385186BCF708A"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6C37D1F194534CB19D8AD6EF59CE96A0"
             {
-            "Name" = "8:CompoundInterest"
+            "Name" = "8:Intereset Calcl"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:16782"
+            "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_67019B7F2C604312A8CB4465FAB2C5C6"
+            "Target" = "8:_5B2FE9C50B894456866810C697AAFEB4"
             "Folder" = "8:_DB4019C39DBF47B1BC8792A8CC13C3BC"
             "WorkingFolder" = "8:_14E2D0DBD7AF4EFE9B60707E8A20EFB4"
-            "Icon" = "8:_F2EC1566076B45409C3065F0188ABC13"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -850,7 +759,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_67019B7F2C604312A8CB4465FAB2C5C6"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5B2FE9C50B894456866810C697AAFEB4"
             {
             "SourcePath" = "8:..\\CimpoundInterest\\obj\\Debug\\CimpoundInterest.exe"
             "TargetName" = "8:"

@@ -142,6 +142,7 @@
             this.resetBtn.TabIndex = 9;
             this.resetBtn.Text = "Reset";
             this.resetBtn.UseVisualStyleBackColor = true;
+            this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
             // 
             // Form2
             // 
